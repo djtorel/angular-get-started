@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PeopleListComponent } from './people-list/people-list.component';
 import { PersonDetailsComponent } from './person-details/person-details.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PersonDetailsComponent } from './person-details/person-details.componen
     PersonDetailsComponent,
 ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
